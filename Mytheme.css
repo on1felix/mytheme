@@ -63,21 +63,6 @@
 }
 
 
-[data-list-item-id*="message"],
-[class*="messageListItem"],
-[id*="message-"],
-li[class*="messageListItem"] {
-    position: relative;
-    border-radius: var(--wave-border-radius);
-    transition: all 0.3s ease;
-}
-
-[data-list-item-id*="message"]:hover,
-[class*="messageListItem"]:hover,
-li[class*="messageListItem"]:hover {
-    transform: translateX(6px);
-}
-
 div[class*="channelTextArea"]:not([class*="popout"]):not([class*="modal"]) {
     background: transparent !important;
 }
