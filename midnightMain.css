@@ -2179,6 +2179,11 @@ body {
     --panel-blur: off; /* off: no changes, on: blur the background of panels */
     --blur-amount: 12px; /* amount of blur */
     --bg-floating: hsla(222, 15%, 13%, 0.959); /* set this to a more opaque color if floating panels look too transparent. only applies if panel blur is on  */
+
+	
+	body:not([style*="--background-image: on"]) {
+    --background-image-url: none;
+}
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
