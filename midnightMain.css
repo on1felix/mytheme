@@ -2179,7 +2179,6 @@ body {
     --panel-blur: off; /* off: no changes, on: blur the background of panels */
     --blur-amount: 12px; /* amount of blur */
     --bg-floating: hsla(222, 15%, 13%, 0.959); /* set this to a more opaque color if floating panels look too transparent. only applies if panel blur is on  */
-
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -2810,6 +2809,13 @@ body:has(
 
 .headerBarContent__1a9ce {
   margin-right: calc(var(--top-bar-right-margin) / 2);
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/* Hide the devtools menu */
+[aria-label="DevTools"] {
+  display: none ;
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
