@@ -2322,7 +2322,6 @@ body {
 /* mmm lovely OPINIONATED borders */ .user-profile-popout { border-radius: 32px; > div {border-radius: 28px}}
 /* OPINIONATED banner mask */ .banner__68edb { mask: linear-gradient(black 70%, transparent);}
 /* shiggy code or something */ .vc-shiki-root {background: #0004 !important;}
-/* hacky unthemed expanded profiles */ .user-profile-modal-v2:not(.custom-user-profile-theme) { --background-base-lower: var(--ProfilePopoutTint) !important; }
 /* unthemed user popouts */ .user-profile-popout:not(.custom-user-profile-theme) { background: var(--ProfilePopoutTint);}
 
 /* PurplePrune config header */
