@@ -6,14 +6,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
 
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
 .contentBody_e9e3ed::after {
   content: "update theme • 21.04.2026";
   position: absolute;
   bottom: 16px;
   right: 16px;
-  color: #058da5;
   font-size: 12px;
   font-family: 'Saira Stencil One', sans-serif;
+  background: linear-gradient(90deg, #058da5, #00e1ff, #058da5);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 4s linear infinite;
 }
 
 /*----------------------------------------------------------
