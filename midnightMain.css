@@ -21,11 +21,11 @@
 
   background: linear-gradient(
     90deg,
-    rgba(107, 107, 107, 0.7) 0%,
-    rgba(107, 107, 107, 0.7) 38%,
-    rgba(97, 186, 204, 0.767) 53%,
-    rgba(107, 107, 107, 0.7) 62%,
-    rgba(107, 107, 107, 0.7) 100%
+    rgba(107, 107, 107, 0) 0%,
+    rgba(107, 107, 107, 0.2) 9%,
+    rgba(97, 186, 204, 0.85) 53%,
+    rgba(97, 186, 204, 0.85) 53%,
+    rgba(255, 255, 255, 0) 60%
   );
   background-size: 200% auto;
   -webkit-background-clip: text;
