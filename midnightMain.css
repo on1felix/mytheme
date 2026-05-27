@@ -19,19 +19,24 @@
   font-size: 12px;
   font-family: 'Saira Stencil One', sans-serif;
 
+  /* fallback, если background-clip не поддерживается */
+  color: #61BACC;
+
   background: linear-gradient(
     90deg,
-    rgba(107, 107, 107, 0) 0%,
-    rgba(107, 107, 107, 0.2) 9%,
-    rgba(97, 186, 204, 0.85) 53%,
-    rgba(97, 186, 204, 0.85) 53%,
-    rgba(255, 255, 255, 0) 60%
+    #61BACC 0%,
+    #61BACC 35%,
+    #B5E2EC 45%,
+    #98eeff 50%,
+    #B5E2EC 55%,
+    #61BACC 65%,
+    #61BACC 100%
   );
   background-size: 200% auto;
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
-
-  animation: shimmer 9s linear infinite;
+  animation: shimmer 6s linear infinite;
 }
 
 /*----------------------------------------------------------
