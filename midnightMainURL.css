@@ -1,0 +1,23 @@
+/**
+ * ================================================
+ *   CUSTOM DISCORD THEME
+ * ================================================
+ *
+ *   HOW TO CHANGE BACKGROUND:
+ *   1. Uncomment the body { ... } block below
+ *   2. Replace the URL with your image link
+ *      (imgur.com links are recommended)
+ *   3. It is recommended to manually enable
+ *      panel blur when using a custom background
+ *
+ * ================================================
+ */
+
+@import url('https://on1felix.github.io/mytheme/midnightMain.css');
+@import url('https://on1felix.github.io/customtheme/customtheme.css');
+
+/*
+body {
+    --background-image-url: url('https://i.imgur.com/YOUR_IMAGE.jpeg');
+}
+*/
