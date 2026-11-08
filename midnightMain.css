@@ -1821,7 +1821,7 @@ body {
 
 /* dms-button.css */
 body {
-    --dms-icon-svg-url: url('https://refact0r.github.io/midnight-discord/assets/Font_Awesome_5_solid_moon.svg'); /* icon svg url. MUST BE A SVG. */
+    --dms-icon-svg-url: url(''); /* icon svg url. MUST BE A SVG. */
     --dms-icon-svg-size: 90%; /* size of the svg (css mask-size property) */
     --dms-icon-color-before: var(--icon-subtle); /* normal icon color */
     --dms-icon-color-after: var(--white); /* icon color when button is hovered/selected */
@@ -2618,43 +2618,14 @@ body {
    CUSTOM USER PROFILE THEME
 ========================================================== */
 
-.custom-user-profile-theme {
-    background: transparent;
-    position: relative;
-    border-radius: 32px;
+.outer_P1YEjQ.user-profile-popout {
+    background: rgba(20, 20, 30, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    -webkit-backdrop-filter: blur(5px) !important;
 }
 
-/* Градиентная окантовка */
-.custom-user-profile-theme::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    padding: var(--custom-user-profile-theme-padding);
-    border-radius: inherit;
-
-    background: linear-gradient(
-        var(--profile-gradient-primary-color),
-        var(--profile-gradient-secondary-color)
-    );
-
-    pointer-events: none;
-}
-
-/* Прозрачность профиля */
-.custom-user-profile-theme > div[class^="inner_"] {
-    --profile-gradient-start:
-        color-mix(
-            in oklab,
-            var(--profile-gradient-overlay-color) 35%,
-            var(--profile-gradient-primary-color)
-        );
-
-    --profile-gradient-end:
-        color-mix(
-            in oklab,
-            var(--profile-gradient-overlay-color) 35%,
-            var(--profile-gradient-secondary-color)
-        );
+.inner_P1YEjQ {
+    background: transparent !important;
 }
 
 
