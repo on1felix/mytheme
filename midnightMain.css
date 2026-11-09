@@ -2618,13 +2618,15 @@ body {
    CUSTOM USER PROFILE THEME
 ========================================================== */
 
-.outer_P1YEjQ.user-profile-popout {
-    background: rgba(20, 20, 30, 0.35) !important;
+/* Размытие только для профилей без пользовательского фона */
+.outer_P1YEjQ.user-profile-popout:not(.custom-theme-background) {
+    background: rgba(20, 20, 30, 0.15) !important;
     backdrop-filter: blur(5px) !important;
     -webkit-backdrop-filter: blur(5px) !important;
 }
 
-.inner_P1YEjQ {
+/* Прозрачность внутреннего слоя */
+.outer_P1YEjQ.user-profile-popout:not(.custom-theme-background) > .inner_P1YEjQ {
     background: transparent !important;
 }
 
